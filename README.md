@@ -2,7 +2,7 @@
 
 ## 简介
 
-基于 jQuery 的 Tab 选项卡
+基于 jQuery 的 Tab 选项卡，[预览](https://zhihur.com/resource/demos/demo03/index.html)
 
 ## 特点
 
@@ -10,16 +10,16 @@
 
 ## 使用
 
-1. 引入依赖文件
+**第一步：引入依赖文件**
 
 ```javascript
 // 引入基础依赖
 <script src="./js/jquery-3.4.1.js"></script>
 // 引入对应插件
-<script src="./js/i35.js"></script>
+<script src="./js/i35.min.js"></script>
 ```
 
-2. 初始化代码
+**第二步：初始化代码**
 
 ```javascript
 // 添加到 body 的最后
@@ -27,16 +27,6 @@ $("body").i35Tab();
 ```
 
 ## API
-
-### 使用方法
-
-```javascript
-$("body").i35Tab({
-    eventType: "mouseover"
-});
-```
-
-### 配置列表
 
 参数名 | 类型 | 是否必填 | 默认值 | 描述
 -|  -  | - | - | -
@@ -58,7 +48,7 @@ content| object | 否 | ... | 内容包裹
 contentItem| object | 否 | ... | 内容列表
 contentItemFirst| object | 否 | ... | 第一个内容
 
-## 测试 & Demo
+## 效果预览
 
 ### 最基础使用
 
@@ -82,6 +72,8 @@ $("body").i35Tab({
 });
 ```
 
+[点我预览](https://zhihur.com/resource/demos/demo03/02_mouseover.html)
+
 ### 改变主题
 
 ```javascript
@@ -89,6 +81,8 @@ $("body").i35Tab({
     color: "#e23839",
 });
 ```
+
+[点我预览](https://zhihur.com/resource/demos/demo03/03_theme.html)
 
 ### 改变切换效果
 
@@ -98,13 +92,17 @@ $("body").i35Tab({
 });
 ```
 
+[点我预览](https://zhihur.com/resource/demos/demo03/04_effect.html)
+
 ### 自动播放
 
 ```javascript
-$("#box5").i35Tab({
+$("body").i35Tab({
     autoPlay: 2000
 });
 ```
+
+[点我预览](https://zhihur.com/resource/demos/demo03/05_autoplay.html)
 
 ### 事件回调
 
@@ -118,3 +116,5 @@ $("body").i35Tab({
     }
 });
 ```
+
+[点我预览](https://zhihur.com/resource/demos/demo03/06_callback.html)

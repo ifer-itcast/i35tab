@@ -1,0 +1,20 @@
+{
+  "name": "i35tab",
+  "version": "1.0.0",
+  "description": "选项卡",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifer-itcast/i35tab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifer-itcast/i35tab/issues"
+  },
+  "homepage": "https://github.com/ifer-itcast/i35tab#readme"
+}

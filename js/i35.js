@@ -25,7 +25,7 @@
             styles: {
                 wrap: { display: "inline-block", verticalAlign: "top", border: "1px solid #dbdbdb", boxShadow: "rgb(164, 160, 157) 1px 1px 9px -3px" },
                 title: { listStyle: "none", display: "flex", margin: 0, padding: 0, borderBottom: "2px solid " + (opts.color || "#6341a5") },
-                titleItem: { flex: 1, cursor: "pointer", padding: "10px 30px", color: "#333" },
+                titleItem: { flex: 1, cursor: "pointer", padding: "10px 30px", color: "#333", "white-space": "nowrap" },
                 titleItemFirst: { marginLeft: 0, "backgroundColor": opts.color || "#6341a5", "color": "#fff" },
                 content: {},
                 contentItem: { display: "none", padding: "20px" },
